@@ -17,16 +17,16 @@ class VirusController extends Controller
     {
         //get data dfrom json 
         
-        $jsonData = file_get_contents(base_path('resources/json/results.json'));
+        $jsonData = file_get_contents(base_path('resources/json/result.json'));
         
         $virus = json_decode($jsonData);
         
-        dump($virus);
+        //dump($virus);
         if(Auth::check()) {
-            return view('virus.index',['virus'=>$virus]);
+          return view('virus.index',['virus'=>$virus]);
         }
  
-//        /return('auth.login');
+        return('auth.login');
     }
 
     /**

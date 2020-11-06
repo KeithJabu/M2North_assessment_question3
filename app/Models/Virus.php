@@ -10,7 +10,7 @@ class Virus extends Model
     use HasFactory;
     
     protected $fillable = [
-        'Country',
+            'Country',
             'Total_cases',
             'New_cases',
             'Total_deaths',

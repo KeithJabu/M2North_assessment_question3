@@ -1,0 +1,20 @@
+{
+    "virus":
+ {
+     "Country":"Saint Kitts and Nevis",
+     "Total_cases":"19",
+     "New_cases":"",
+     "Total_deaths":" ",
+     "New_deaths":"",
+     "Total_Recovered":"19"
+ },
+    "virus[0]":
+    {
+        "Country":"Total:",
+        "Total_cases":"49149739",
+        "New_cases":"+134854",
+        "Total_deaths":"1241708",
+        "New_deaths":"+2829",
+        "Total_Recovered":"35066901"
+    }
+}
